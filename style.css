@@ -1,0 +1,46 @@
+footer {
+    width: 100%; /* O el ancho que desees, por ejemplo, 90% */
+    padding: 20px; /* Ajusta el relleno según tus preferencias */
+    box-sizing: border-box; /* Asegura que el relleno no afecte el tamaño total del elemento */
+    background-color: #333; /* Cambia el color de fondo según tus preferencias */
+    color: white; /* Cambia el color del texto según tus preferencias */
+}
+
+.titulos {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.sticky-container {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #3498db; /* Cambia el color de fondo según tus preferencias */
+    text-align: center;
+    color: white; /* Cambia el color del texto según tus preferencias */
+}
+
+.sticky-content {
+    display: inline-block;
+    border: none;
+    background-color: #3498db; /* Cambia el color de fondo según tus preferencias */
+    padding: 10px 20px;
+    color: white; /* Cambia el color del texto según tus preferencias */
+}
+
+.boton-volver{
+    background-color: #3498db;
+    color: white;
+}
+
+
+.body-custom {
+    background-size: 50%;
+}
+.navbar-custom {
+    background: none; /* Fondo transparente para que la imagen de fondo sea visible */
+    border: none; /* Sin bordes */
+}

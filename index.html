@@ -1,0 +1,985 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tp José Manca</title>
+    <!-- Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fuentes -->
+
+
+</head>
+
+<body>
+
+    <!-- Inicio Nav -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+
+            <a class="nav-link dropdown-toggle" href="#intro" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Marco Teórico
+            </a>
+            <ul class="dropdown-menu mx-4  ">
+                <li><a class="dropdown-item" href="#planteamiento">Planteamiento del problema</a></li>
+                <li><a class="dropdown-item" href="#marco">Marco Teórico</a></li>
+                <li><a class="dropdown-item" href="#trastornos">Trastornos de la Dislexia</a></li>
+                <li><a class="dropdown-item" href="#lectura">La lectura</a></li>
+                <li><a class="dropdown-item" href="#escritura">La escritura</a></li>
+                <li><a class="dropdown-item" href="#dislexia">Tipos de Dislexia</a></li>
+                <li><a class="dropdown-item" href="#sintomas">Síntomas</a></li>
+                <li><a class="dropdown-item" href="#psico">Medidas psicopedagógicas</a></li>
+                <li><a class="dropdown-item" href="#conclusion">Conclusión</a></li>
+            </ul>
+            <a class="nav-link dropdown-toggle  mx-4 " href="#intro" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Videos dislexia
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=u9QJYweVceY&ab_channel=SaludEmocionalMedicinaTV" target="_blank">Todo lo que debes saber sobre la dislexia</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=avGK1xtEqdE&ab_channel=PedagogiaSana" target="_blank">10 ejercicios para niños con dislexia</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/watch?time_continue=6&v=sUBqwPHnfHo&embeds_referring_euri=https%3A%2F%2Fsites.google.com%2F&source_ve_path=MjM4NTE&feature=emb_title&ab_channel=PedagogiaSana" target="_blank">20 características para detectar la dislexia</a></li>
+            </ul>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link " href="Actividades.html">Actividades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Biografía</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  " href="#">Autor</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Fin Nav -->
+
+    <!-- Inicio carrusel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imagenes/IMG-20231207-WA0002.jpg" class="d-block w-100" alt="01">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/IMG-20231207-WA0003.jpg" class="d-block w-100" alt="02">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/IMG-20231207-WA0004.jpg" class="d-block w-100" alt="03">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/IMG-20231207-WA0005.jpg" class="d-block w-100" alt="04">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Fin carrusel -->
+
+    <!-- Inicio Introduccion -->
+    <div class="sticky-container titulo" id="intro">
+        <span class="sticky-content p-0">
+            <h3>Introducción</h3>
+        </span>
+    </div>
+
+    <div class="container-fluid m-3">
+        <div class="container">
+            Dentro de las dificultades que se presentan en los estudiantes a temprana edad, se encuentra la dislexia, un
+            problema de aprendizaje que dificulta el desarrollo de la lectoescritura que cada vez se registra más en las
+            aulas de clase, pero, producto del desconocimiento sobre el tema, su diagnóstico y tratamiento suele ser
+            tardío.
+            En el campo educativo se requiere la atención del trastorno por especialistas no solo en el ámbito de la
+            medicina neuronal, sino de la psicología, pues como parte de nuestra labor profesional se encuentra brindar
+            un
+            acompañamiento adecuado a los problemas que afectan el desarrollo cognitivo, afectivo y emocional, el cual
+            se
+            realiza bajo el conocimiento de las teorías referentes al problema que hay que tratar. Se ha determinado
+            que, si
+            los niños no son tratados a tiempo en este problema, las consecuencias pueden repercutir en el desarrollo de
+            su
+            vida personal, pues se genera una afectación en la autoestima, ya que el niño siente frustración por no
+            lograr
+            los aprendizajes deseados, esto puede terminar en una deserción escolar y aislamiento social.
+        </div>
+    </div>
+    <!-- Fin Introduccion -->
+
+    <!-- Inicio Planteamiento del problema -->
+    <div class="sticky-container titulo" id="planteamiento">
+        <span class="sticky-content p-0">
+            <h3>Planteamiento del problema</h3>
+        </span>
+    </div>
+    <div class="container-fluid m-3">
+        <div class="container">
+            Los problemas de aprendizaje durante la infancia, generan una influencia en las etapas de desarrollo, la
+            cual
+            pueden llegar a perjudicar en algún modo, en el desempeño académico y social de los estudiantes, debido a
+            que no
+            se adaptan a su entorno, sintiéndose juzgados y discriminados por sus compañeros de clase que no poseen la
+            misma
+            problemática. Propiamente la dislexia, considerada como un problema específico dentro del gran grupo de los
+            trastornos de aprendizaje, que se caracteriza por los errores o síntomas disléxicos; su especificidad
+            proviene
+            de que por un lado esos síntomas indican características especiales en la evolución psicológica y en la
+            organización o estructura mental, ligadas a dificultades específicas en la integración del esquema corporal
+            o
+            imagen mental del cuerpo. Esta problemática afecta directamente al infante de forma muy significativa,
+            generando
+            en él problemas de adaptación en el entorno laboral, social, y académico. Finalmente se debe tener en cuenta
+            que
+            la resolución de este problema beneficiara de manera significativa a la población que lo presenta, mejorando
+            su
+            desempeño y calidad educativa.
+        </div>
+    </div>
+    <!-- Fin planteamiento -->
+
+    <!-- Inicio de Marco Teórico  -->
+    <div class="sticky-container titulo" id="marco">
+        <span class="sticky-content p-0">
+            <h3>Marco Teórico</h3>
+        </span>
+    </div>
+    <div class="container-fluid m-3">
+        <div class="container">
+            A pesar de que es en el siglo XX cuando se ha puesto de manifiesto el alcance del problema, la dislexia fue
+            reconocida y descrita por primera vez a finales del siglo XIX. Desde entonces, investigadores procedentes de
+            distintos campos de la medicina, la psicología y la pedagogía han creído descubrir una diversidad de causas
+            del
+            problema disléxico. Michel Habib realizó un estudio de las investigaciones en los distintos campos
+            relacionados
+            especialmente con la neurología. Sin embargo, ninguno de los factores invocados tiene especificidad
+            suficiente,
+            consistencia o aval como para poder ser considerado causa y por tanto todos ellos quedan en la categoría de
+            teorías sobre la dislexia. Agruparía estas teorías en:
+            <ul>
+                <li class="p-2">
+                    Genéticas: Se ha sugerido la teoría hoy por hoy no probada de un gen de la dislexia. Se ha hablado
+                    especialmente
+                    de los cromosomas 15 y 6 que tendrían algún papel en la aparición de distintas formas del problema.
+                    Pero
+                    otros
+                    autores contradicen estas propuestas. Otros investigadores han realizado estudios especialmente a
+                    través
+                    de
+                    gemelos monozigóticos (Castles et al., 1999) sobre los factores hereditarios que podrían participar
+                    en
+                    el
+                    síndrome. Los mismos investigadores en este campo sugieren que se conoce aún poco sobre esta
+                    transmisión
+                    genética.
+                </li>
+                <li class="p-2">
+                    Neurológicas: Dentro de este grupo se han defendido alrededor de una docena de teorías muy diversas
+                    y a
+                    veces
+                    contradictorias, pero ninguna tiene un carácter suficientemente específico ni ha sido
+                    suficientemente
+                    demostrada
+                    (Habib, 2000). Entre ellas, se ha hablado de anomalías neurológicas congénitas que distintos autores
+                    sitúan en
+                    diferentes localizaciones (Gala burda, 1996; Habib, 2000). También se han sugerido trastornos
+                    funcionales
+                    congénitos que seguirían teniendo la misma inespecificidad y falta de consistencia y que además a
+                    menudo
+                    se
+                    contradicen con los conocimientos actuales acerca de la neuroplasticidad. En realidad, neurólogos
+                    como
+                    Critchley
+                    (1964), FilipeK (1999) y Habib (2000) sostienen que hasta ahora no se ha encontrado, no sólo ningún
+                    dato
+                    clínico
+                    o de exploración neurológica suficientemente específico y demostrado, sino tampoco ningún hallazgo
+                    anatomo-patológico específico y fiable que lo confirme.
+                </li>
+                <li class="p-2">
+                    Sensoriales Visuales: Algunos autores hablan de un déficit de procesamiento visual. Según unos
+                    autores
+                    se
+                    trataría de distorsiones perceptuales y según otros, de movimientos oculares anómalos de los ojos
+                    que
+                    dificultarían moverlos adecuadamente sobre las letras siguiendo la lectura y que generarían el
+                    problema
+                    disléxico. Como tratamiento proponen ejercicios para regular los movimientos oculares. Pero en esta
+                    teoría no
+                    son tenidos en cuenta los errores gráficos y ortográficos específicos de la dislexia.
+                </li>
+
+                <li class="p-2 ">
+                    Auditivos: Los autores que sostienen esta teoría (Tomatis, 1967) hablan de dificultades en la
+                    audición.
+                    Se
+                    trataría de dificultad para escuchar por lo que utilizan auriculares para forzar la audición.
+                </li>
+                <li class="p-2 ">
+                    Fonológicos: Consistirían en un defecto básico en segmentar y manipular los fonemas que constituyen
+                    el
+                    lenguaje
+                    o para extraer los fonemas a partir del lenguaje escrito.
+                </li>
+                <li class="p-2 ">
+                    Pedagógicas: Se trataría de técnicas erróneas o nefastas de enseñanza en la escuela. A pesar de que
+                    la
+                    manera de
+                    enseñar es por supuesto un factor muy importante, esta teoría no explica por qué, con la misma
+                    técnica,
+                    incluso
+                    en la misma aula, unos niños desarrollarían dislexia y otros no.
+                </li>
+                <li class="p-2">
+                    Psicológicas: Algunos autores entienden la dislexia como un problema psicológico producido por
+                    factores
+                    ambientales y afectivos que influyen en el niño, por ejemplo disminuyendo su motivación, deseo y/o
+                    capacidad
+                    para aprender. Otra teoría psicológica describe un déficit de la comprensión de la correspondencia
+                    sonido
+                    símbolo y un tercer grupo, las teorías psicológicas de inspiración conductista cognitivista, tratan
+                    el
+                    problema
+                    disléxico como un mal hábito adquirido y por tanto el tratamiento se basa en técnicas de
+                    modificación de
+                    la
+                    conducta. Como decía, ninguno de estos factores por sí mismo se puede considerar causa específica,
+                    pero
+                    el gran
+                    problema es que los campos de investigación corren en paralelo, con una gran ausencia de diálogo,
+                    aportaciones
+                    mutuas, investigación interdisciplinar y vertebración de los hallazgos, cosa que salta a la vista
+                    cuando
+                    se leen
+                    estas investigaciones. La experiencia clínica muestra que el problema disléxico está en la mente, lo
+                    mismo que
+                    los problemas de aprendizaje en general. Asimismo están en la mente las capacidades que permitirán
+                    el
+                    desarrollo
+                    intelectual y de la personalidad adecuado. Como muestran los estudios de los últimos cincuenta años,
+                    pero
+                    especialmente de los últimos veinticinco (Mahler, 1967; Winnicott, 1987; Brazelton, 1983; Brazelton
+                    y
+                    Cramer,
+                    1993; Trevarthan, 1980; Stern, 1985; Abrahamsen, 1993), la evolución intelectual y de la capacidad
+                    de
+                    aprendizaje, así como la evolución social y del equilibrio emocional se genera en la matriz de la
+                    relación y la
+                    interacción entre el niño y su entorno, especialmente entre el niño y las figuras centrales de este
+                    entorno,
+                    normalmente los padres o la madre. En esta relación se generan los estímulos imprescindibles para
+                    que el
+                    niño
+                    pueda organizar su mente, siente las bases de su relación con la realidad exterior y de la capacidad
+                    de
+                    aprender. Los padres y las personas del entorno transmiten al niño los vínculos o nexos entre las
+                    experiencias
+                    que vive tanto en la realidad externa como en la realidad psíquica, o sea lo que pasa dentro de él,
+                    lo
+                    que a él
+                    le pasa, y así lo ayudan a entender su significado.
+                </li>
+            </ul>
+            La dislexia se distingue de los demás trastornos que pueden tener como aspecto destacado las dificultades de
+            la
+            lectura por la naturaleza singular, circunscrita de la deficiencia fonológica, que no interfiere en los
+            demás
+            dominios lingüísticos o cognitivos. En el niño preescolar, la historia de retraso del lenguaje o de no
+            atender a
+            los sonidos de las palabras (problemas para aprender las canciones infantiles o para jugar a rimar las
+            palabras,
+            confundir palabras que suenan de manera parecida, pronunciar mal las palabras), problemas para aprender a
+            reconocer las letras del alfabeto, junto con una historia familiar positiva, constituyen importantes
+            factores de
+            riesgo de dislexia. En el niño en edad escolar, los problemas de presentación se centran con mucha
+            frecuencia en
+            el rendimiento, a menudo los padres y los maestros no detectan que la razón es la dificultad en la lectura.
+            El
+            cuadro típico es el de un niño que puede tener un retraso en el habla, no aprende las letras en el jardín de
+            infancia, no ha empezado a aprender a leer en el primer curso y le es difícil pronunciar palabras de forma
+            eficaz. El niño se retrasa cada vez más, y los padres y los maestros se sorprenden de que un niño tan
+            inteligente pueda tener dificultades para aprender a leer. La dificultad en la lectura es inesperada
+            teniendo en
+            cuenta la habilidad, la edad o el curso del niño. Incluso tras adquirir las capacidades de descodificación,
+            el
+            niño suele ser un lector lento. Los niños disléxicos brillantes pueden aprender con dificultad a leer
+            exactamente las palabras, pero no llegan a leer con fluidez (es decir, no reconocen las palabras de forma
+            rápida
+            y automática). 8La dislexia es el efecto de múltiples causas, que pueden agruparse entre dos polos. De una
+            parte
+            los factores neurofisiológicos, por una maduración más lenta del sistema nervioso y de otra los conflictos
+            psíquicos, provocados por las presiones y tensiones del ambiente en que se desenvuelve el niño.
+        </div>
+    </div>
+    <!-- Fin de Marco Teórico  -->
+
+    <!-- Inicio Trastornos de la Dislexia  -->
+    <div class="sticky-container titulo" id="trastornos">
+        <span class="sticky-content p-0">
+            <h3>Trastornos de la Dislexia</h3>
+        </span>
+    </div>
+    <div class="container-fluid m-3">
+        <div class="container">
+            La dislexia sería la manifestación de una serie de trastornos que en ocasiones pueden presentarse de un modo
+            global, aunque es más frecuente que aparezcan algunos de ellos de forma aislada. Estos trastornos son:
+            <ul>
+                <li class="p-2">
+                    Mala lateralización: La lateralidad es el proceso mediante el cual el niño va desarrollando la
+                    preferencia o
+                    dominancia de un lado de su cuerpo sobre el otro. Nos referimos a las manos y los pies. Si el
+                    predominio
+                    es
+                    del
+                    lado derecho, es un sujeto diestro; si es del lado izquierdo, se denomina zurdo; y si no se ha
+                    conseguido un
+                    dominio lateral en algunos de los lados, se llama ambidiestro. En general, la lateralidad no está
+                    establecida
+                    antes de los 5 ó 6 años, aunque algunos niños ya manifiestan un predominio lateral desde muy corta
+                    edad.
+                    Los
+                    niños que presentan alguna alteración en la evolución de su lateralidad, suelen llevar asociados
+                    trastornos
+                    de
+                    organización en la visión del espacio y del lenguaje que vienen a constituir el eje de la
+                    problemática
+                    del
+                    disléxico. El mayor número de casos disléxicos se da en los niños que no tienen un predominio
+                    lateral
+                    definido
+                    La lateralidad influye en la motricidad, de tal modo que un niño con una lateralidad mal definida
+                    suele
+                    ser
+                    torpe a la hora de realizar trabajos manuales y sus trazos gráficos suelen ser descoordinados.
+                </li>
+
+                <li class="p-2 ">
+                    Alteraciones de la psicomotricidad: Es muy frecuente que los niños disléxicos, con o sin problemas
+                    de
+                    lateralidad, presenten alguna alteración en su psicomotricidad (relación entre las funciones motoras
+                    y
+                    psicológicas). Se trata de inmadurez psicomotriz, es decir, torpeza general de movimientos. En el
+                    niño
+                    disléxico
+                    estas anomalías no se dan aisladas, sino que acompañan al resto de los trastornos específicos como:
+                </li>
+                <li class="p-2 ">
+                    Falta de ritmo: Que se pone de manifiesto tanto en la realización de movimientos como en el
+                    lenguaje,
+                    con
+                    pausas
+                    mal colocadas, que se harán patentes en la lectura y en la escritura.
+                </li>
+                <li class="p-2 ">
+                    Falta de equilibrio: suelen presentar dificultades para mantener el equilibrio estático y dinámico.
+                    Por
+                    ejemplo,
+                    les cuesta mantenerse sobre un pie, saltar, montar en bicicleta, marchar sobre una línea, etc.
+                </li>
+                <li class="p-2">
+                    Conocimiento deficiente del esquema corporal: Muy unido a la determinación de la lateralidad y a la
+                    psicomotricidad está el conocimiento del esquema corporal y sobre todo la distinción de
+                    derecha-izquierda,
+                    referida al propio cuerpo. Así el niño diestro (normalmente escribe, come, etc. con la mano derecha)
+                    y
+                    el
+                    zurdo
+                    (escribe, come...con la izquierda) tienen su mano derecha e izquierda, respectivamente, como puntos
+                    de
+                    referencia fundamentales sobre los que basar su orientación espacial. El niño mal lateralizado, al
+                    poseer
+                    una
+                    imagen corporal deficiente, carece de los puntos de referencia precisos para su correcta
+                    orientación. El
+                    cuerpo
+                    sitúa al sujeto en el espacio y es a partir del cuerpo como se establecen todos los puntos de
+                    referencia
+                    por
+                    medio de los cuales se organiza toda actividad.
+                </li>
+                <li class="p-2">
+                    Trastornos perceptivos: Toda la percepción espacial está cimentada sobre la estructura fundamental
+                    del
+                    conocimiento del cuerpo. Se sitúan los objetos teniendo en cuenta que la posición del espacio es
+                    relativa,
+                    una
+                    calle no tiene realmente ni derecha ni izquierda, dependiendo ésta de la posición donde esté situada
+                    la
+                    persona.
+                    También el concepto que tenga de arriba-abajo, delante-detrás, referido a sí mismo, lo proyectará en
+                    su
+                    conocimiento de las relaciones espaciales en general. Del mismo modo, en la lectura y la escritura,
+                    el
+                    niño
+                    tiene que fundamentarse en sus coordenadas arriba-abajo, derecha-izquierda, delante-detrás; y
+                    plasmarlas
+                    en
+                    la
+                    hoja de papel y en la dirección y forma de cada signo representado. El niño que no distinga bien
+                    arriba-abajo
+                    tendrá dificultades para diferenciar las letras.
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Fin Trastornos de la Dislexia  -->
+
+
+    <!-- Inicio La Lectura  -->
+    <div class="sticky-container titulo" id="lectura">
+        <span class="sticky-content p-0">
+            <h3>La lectura</h3>
+        </span>
+    </div>
+    <div class="container-fluid m-3">
+        <div class="container ">
+            La lectura es un proceso por el cual el ser humano comprende e interpreta textos, esta se encuentra asociada
+            a
+            la comunicación pues trata de descifrar una serie de signos para entender un mensaje, dando significado a
+            hechos
+            o fenómenos descritos en el texto, que nos permita adquirir nuevo conocimiento . Es así que a través de ella
+            se
+            fortalecen los aprendizajes, puesto que, en este proceso de interacción del lector con el texto, surgen
+            nuevas
+            ideas y propuestas. También, fomenta la generación de sentimientos y sensaciones únicos al leer pues se usa
+            la
+            imaginación para analizar y comprender lo que el autor del texto intenta decir, de esta manera, cada lector
+            va
+            construyendo su propio significado .
+
+            En base a lo mencionado, se concluye que la importancia de la lectura radica en ingresar, mediante este
+            proceso,
+            a un mundo nuevo de ideas desarrolladas en un tiempo distinto al nuestro. En el caso de los niños, cuando
+            aprenden a leer, se fortalece su desarrollo cognitivo y sobre todo su pensamiento crítico para reflexionar
+            sobre
+            el porqué de las cosas, saber las consecuencias de sus actos y desarrollar su propio conocimiento o visión
+            sobre
+            las cosas . El desarrollo del habla también se fortalece mediante la lectura en los niños, pues con ella,
+            reconocen palabras nuevas que van memorizando para utilizarlo en sus diálogos con las personas. Al leer, el
+            niño
+            va modelando su entonación, tiempo de habla, timbre de voz, movimientos musculares, gestos y miradas, es
+            decir,
+            el aspecto no verbal que contribuye a una buena lectura se beneficia. Asimismo, es valiosa porque conlleva
+            también al desarrollo social de las personas, pues mediante la lectura, se puede tener una mejor comprensión
+            del
+            entorno favoreciendo el desarrollo de acciones solidarias, de cambio social y de transformación.
+
+            <h6 class="font-weight-bold m-3">Enseñanza de la lectura</h6>
+
+            La lectura se inicia en espacios fuera del colegio como es la casa y la comunidad, es precisamente con la
+            familia, que se tendrá el primer contacto con el aprendizaje de la lectura a través de los estímulos que en
+            casa
+            vaya recibiendo en la interacción o comunicación que se realice entre los miembros que la integran. Sin
+            embargo,
+            de manera formal, este proceso se da en la escuela, en el cual, el docente tiene un rol muy importante en el
+            aprendizaje de la lectura en los niños. Desde la etapa de educación inicial se da el proceso de
+            alfabetización
+            con apoyo de los padres de familia; en un primer momento, el maestro resalta la importancia del aprendizaje
+            de
+            la lectura porque no solo se debe centrar en que los niños sepan leer, sino en que sientan interés por leer
+            cada
+            vez más.
+            <ul>
+
+                Existen diversos métodos que, a lo largo del tiempo, se han utilizado para el desarrollo de la lectura
+                en
+                los
+                niños. Entre los más utilizados se encuentran los siguientes:
+                <li class="p-2 ">
+                    Método alfabético: Se basa en el aprendizaje del abecedario y de las asociaciones de las letras que
+                    componen sus
+                    nombres como a, be, ce, de, efe. También se realiza la enseñanza de la combinación de los grafemas y
+                    de
+                    las
+                    sílabas en palabras como “ese-o=so y ele-a=la, es decir, SOLA.
+                </li>
+                <li class="p-2 ">
+                    Método silábico: Se inicia mediante la enseñanza primero de las vocales, luego de las consonantes
+                    con lo
+                    cual,
+                    el estudiante terminará uniendo dichas letras para formar sílabas y luego palabras, por ejemplo, se
+                    enseña la
+                    “s”: sa, 7 se, si, so y su, de la misma forma pasará con otra consonante y vocal. De esta manera, el
+                    niño
+                    desarrolla una lectura expresiva y mecanizada. - Método fonético: Consiste en la enseñanza de
+                    fonemas o
+                    sonidos
+                    distintivos de las letras. Para este método se requiere que los estudiantes puedan realizar el
+                    análisis
+                    y
+                    distinción visual y fonológica de los grafemas y fonemas. En este caso, la lectura se aprende
+                    simultáneamente
+                    con la escritura, pues mientras se redactan las silabas (vocal + consonante) el niño va hablando su
+                    propia
+                    redacción.
+                </li>
+                <li class="p-2 ">
+                    Método analítico: Este tiene una mayor complejidad, por lo cual, el niño debe tener una base como la
+                    escritura.
+                    Aquí se resalta la función visual más que la auditiva, ya que el niño primero reconoce la totalidad
+                    de
+                    la frase
+                    u oración, para analizar su significado, esto promueve la lectura rápida, fluida y la buena
+                    pronunciación de las
+                    palabras, respetando los signos de puntuación y dando una entonación adecuada al texto. -
+                </li>
+                <li class="p-2 ">
+                    Método mixto o eclécticos: También se le denomina método de análisis y síntesis, ya que, a través de
+                    la
+                    función
+                    visual, más desarrollada, el niño reconoce las palabras y las comprende, esto le permite identificar
+                    las
+                    correspondencias de grafemas y fonemas. Aquí, se utiliza la estrategia del deletreo en un inicio
+                    para la
+                    buena
+                    pronunciación de las palabras.
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <!-- Fin La Lectura  -->
+
+    <!-- Inicio La Escritura  -->
+    <div class="sticky-container titulo" id="escritura">
+        <span class="sticky-content p-0">
+            <h3>La escritura</h3>
+        </span>
+    </div>
+    <div class="container-fluid m-3">
+        <div class="container">
+            Escribir es un proceso complejo que forma parte del lenguaje expresivo, creado por el ser humano para
+            compartir
+            conocimiento, ideas, pensamientos y experiencias que la mente, por ser frágil, puede olvidar . Este proceso
+            se
+            caracteriza por ser un sistema de representación gráfica de signos y símbolos, que se desarrolla de manera
+            progresiva mediante la 8 consolidación de la psicomotricidad fina, que permite la comprensión y posterior
+            diseño
+            de las letras .Su importancia radica en ser una herramienta de aprendizaje, ya que al escribir se fortalece
+            la
+            memoria, la comprensión y el pensar, así los estudiantes adhieren nuevos conceptos, sobre sus saberes
+            previos
+            para desarrollar una propia manera de pensar que, bajo la redacción, puede mejorar su fundamento.
+
+            <h6 class="font-weight-bold m-3">Proceso de enseñanza de la escritura</h6>
+
+            El desarrollo de la escritura se da en tres etapas:
+            <ul>
+                <li class="p-2 ">
+                    Precaligráfica: Se desarrolla entre los 5 – 7 años de edad, en esta etapa, el niño realiza una
+                    escritura
+                    discontinua, enfocándose en el reconocimiento y la representación de las letras básicas, como el
+                    abecedario. Aún
+                    no tiene noción adecuada del espacio, pues la escritura se realiza sin respetar los márgenes del
+                    cuaderno .
+                </li>
+                <li class="p-2 ">
+                    Caligrafía: Entre los 8 a 12 años de edad, los estudiantes tienen un avance en su escritura, ya que
+                    la
+                    motricidad fina es más sólida, permitiendo un dominio del grafismo. Esto hace que la escritura sea
+                    más
+                    continua
+                    y rápida cuando se realiza el dictado, también las grafías son más claras y ordenadas pues se
+                    respeta la
+                    horizontalidad de la escritura y los márgenes del cuaderno .
+                </li>
+                <li class="p-2 ">
+                    Post caligráfico: Va desde los 12 a 13 años de edad, en esta etapa se consolida la escritura, ya que
+                    alcanza su
+                    máxima velocidad, la escritura es legible pues se realiza una unión adecuada de las letras, esto
+                    permite
+                    entender lo escrito . Ahora, los estudiantes personalizan bajo sus intereses la forma de escritura
+                    que
+                    lo
+                    acompañará a lo largo de su vida.
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Fin La Escritura  -->
+
+    <!-- Inicio Tipos de Dislexia  -->
+    <div class="sticky-container titulo" id="dislexia">
+        <span class="sticky-content p-0">
+            <h3>Tipos de Dislexias</h3>
+        </span>
+    </div>
+    <div class="container-fluid m-3">
+        <div class="container">
+
+            <h6 class="font-weight-bold m-3">1) Dislexia Diseidético (DI):</h6> Este tipo de dislexia se caracteriza por
+            la lectura lenta de cada uno de los
+            grafemas que componen la palabra de manera lenta, en esta lectura se presentan omisiones, transposiciones e
+            inversiones. Este tipo de dislexia es superficial pues utilizan una ruta fonológica ya que tienen
+            dificultades
+            en reconocer las palabras, “la persona tiene un acceso a la exclamación de las palabras guiado por el sonido
+            y
+            no por la ortografía de la palabra por lo que mantienen errores de precisión ante homófonos (palabras que se
+            pronuncia igual que otra pero que se escribe de manera diferente y tiene distinto significado)”. Algunos
+            ejemplos al respecto: en cuanto a omisión se menciona “canero” por “carnero”, “época” por “épocas”, respecto
+            a
+            la transposición se altera 14 el orden de los grafemas “al” por “la” o “el” por “le”, y respecto a la
+            inversión,
+            considerada como el problema de recordar la posición de los grafemas por ejemplo “b” por “p” en “bescar” por
+            “pescar” o “p” por “q” en “puena” por “quena”.
+
+
+            <h6 class="font-weight-bold m-3">2) Dislexia disfonético (DF):</h6>
+            Este caso es considerado como una dislexia fonológica pues la persona tiene
+            dificultades en el mecanismo de conversión grafema – fonema, existe una lectura precisa y muy utilizada de
+            palabras comunes, lo cual no sucede con lecturas de pseudopalabras o palabras desconocidas. Se conoce como
+            dislexia profunda pues se caracteriza porque la persona cambia un grafema por otro, es el caso de la
+            expresión
+            de “cardero” por “carnero”, “estucia” por “astucia”, o aumenta un grafema, una silaba o palabra en su
+            lectura
+            como “tontolobobo” por “tontolobo”, “perosiguió” por “persiguió”. Otro error en el que incurren es el de
+            tipo
+            semántico, al sustituir una palabra por otra con significado semejante: “quería” por “quieres” o “llamó” por
+            “llamaban”, y las lexicalizaciones donde una palabra con un propio significado y con una configuración
+            visual
+            determinada, se sustituye por otra similar manteniendo el inicio o final de la palabra: “planta” por “alta”
+            o
+            “pequeña” por “peña” .
+
+            <h6 class="font-weight-bold m-3">3) Dislexia Mixta (DM):</h6>
+            En este caso se aprecian pacientes que tienen déficit de los dos tipos de dislexia:
+            fonológico y superficial pero existe la tendencia de que una se presente en mayor grado que la otra. Esta
+            tendencia sobre todo se evidencia en los niños donde su nivel de lectura y escritura es menor del promedio,
+            principalmente, por una afectación de atención visual, que los limita a tener un escaso vocabulario
+            (reflejado
+            en la escritura y la expresión oral) y también poca capacidad de deletreo . Finalmente, es importante, para
+            la
+            atención oportuna de todos estos casos, se realice una temprana evaluación diagnóstica.
+        </div>
+
+    </div>
+    <!-- Fin Tipos de Dislexia  -->
+
+    <!-- Inicio Síntomas  -->
+
+    <div class="sticky-container titulo" id="sintomas">
+        <span class="sticky-content p-0">
+            <h3>Síntomas</h3>
+        </span>
+    </div>
+    <div class="container-fluid m-3">
+        <div class="container">
+            <ul>
+                <li class="p-1 ">
+                    Dificultad en la pronunciación de palabras fonéticamente similares.
+                </li>
+                <li class="p-1 ">
+                    Dificultad en el reconocimiento de los colores por su nombre propio o de las cosas, suele haber
+                    confusiones.
+                </li>
+                <li class="p-1 ">
+                    Problemas para el aprendizaje de rimas cortas.
+                </li>
+                <li class="p-1 ">
+                    Se presentan complicaciones para aprender a leer y escribir.
+                </li>
+                <li class="p-1 ">
+                    Confusión en el reconocimiento de la lateralidad (izquierda y derecha).
+                </li>
+                <li class="p-1 ">
+                    Problemas de atención y concentración.
+                </li>
+                <li class="p-1 ">
+                    Se expresan situaciones de estrés, frustración, ansiedad e impulsividad por problemas en la
+                    continuidad
+                    de una
+                    actividad.
+                </li>
+                <li class="p-1 ">
+                    Presentan problemas de ordenamiento de ideas.
+                </li>
+                <li class="p-1 ">
+                    Dificultad en el aprendizaje de las secuencias, por ejemplo, en aprender los días de la semana de
+                    manera
+                    ordenada o el alfabeto. Asimismo, se manifiestan problemas en cuanto a la escritura y la lectura,
+                    tan
+                    evidentes
+                    e importantes que no permiten el avance académico de los estudiantes.
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            <h6 class="font-weight-bold m-3">En la escritura</h6>
+        </div>
+        <div class="container">
+            <ul>
+                <li class="p-1 ">
+                    Problemas para copiar lo escrito en la pizarra en el cuaderno.
+                </li>
+                <li class="p-1 ">
+                    Errores ortográficos.
+                </li>
+                <li class="p-1 ">
+                    Omisiones de letras dentro de las palabras y frases.
+                </li>
+                <li class="p-1 ">
+                    Suelen escribir combinando mayúsculas con minúsculas.
+                </li>
+                <li class="p-1 ">
+                    No hay una correcta unión y/o separación de las palabras, sobre todo incurren a unir inadecuadamente
+                    las
+                    palabras en una frase.
+                </li>
+                <li class="p-1 ">
+                    La coordinación manual del lápiz es inadecuada.
+                </li>
+                <li class="p-1 ">
+                    Se aprecia un cambio en el orden de las cifras (42 por 24) y hay confusión en el sonido (60 por 70).
+                </li>
+                <li class="p-1 ">
+                    La escritura del verbo no es adecuada en la frase, suelen escribirse en tiempos diferentes a lo que
+                    se
+                    intenta
+                    decir.
+                </li>
+                <li class="p-1 ">
+                    Es complicado orientarse en el espacio, no se ubican a través de coordenadas geográficas o puntos
+                    cardinales.
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            <h6 class="font-weight-bold m-3">En la lectura</h6>
+        </div>
+        <div class="container">
+            <ul>
+                <li class="p-2 ">
+                    Poca fluidez y falta de ritmo al leer
+                </li>
+                <li class="p-2 ">
+                    Se sustituyen u omiten las palabras, sílabas o fonemas.
+                </li>
+                <li class="p-2 ">
+                    Se omiten los signos de puntuación provocando la omisión de las palabras dentro de las frases.
+                </li>
+                <li class="p-2 ">
+                    Pérdida de la visión en la lectura, generando la repetición de las líneas que se leen.
+                </li>
+                <li class="p-2 ">
+                    La lectura es lenta pues el niño tarda en enunciar las palabras lo cual provoca una dificultad en la
+                    comprensión
+                    del significado.
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            Para la detención temprana de este trastorno, no es necesaria la presencia de todos los síntomas. En los
+            niños
+            de 3 a 5 años situaciones como el retraso del habla, el lento vocabulario, problemas de atención, memoria y
+            retraso en las habilidades sociales son síntomas de posible presencia de dislexia, esto aumenta a la edad de
+            6 a
+            11 años con otras manifestaciones como confusión en el cambio de las letras en la palabra, escritura espejo,
+            dificultad en la comprensión del significado de la palabra, lenta pronunciación de los vocablos y poca
+            retención
+            de lo leído. Esta situación se hace más evidente a partir de los 8 años de edad, donde se puede hacer, bajo
+            la
+            presencia de estos síntomas el diagnóstico de dislexia.
+        </div>
+    </div>
+    </div>
+    <!-- Fin Síntomas  -->
+
+
+    <!-- Inicio Medidas psicopedagógicas  -->
+    <div class="sticky-container titulo" id="psico">
+        <span class="sticky-content p-0">
+            <h3>Medidas psicopedagógicas</h3>
+        </span>
+    </div>
+    <div class="container-fluid m-3">
+        <div class="container">
+            La Asociación Andaluza de Dislexia (ASANDIS, 2014) señala las siguientes medidas psicopedagógicas que el
+            maestro
+            debe tener presente dentro del aula de clase para el tratamiento de casos de dislexia:
+            <ul>
+                <li class="p-2 ">
+                    Proximidad: los niños con diagnóstico de dislexia deben tener la ubicación más cercana al docente y
+                    a la
+                    pizarra
+                    con la finalidad de mantener el interés de la clase en el niño, como también tener un mejor control
+                    y
+                    supervisión de las tareas realizadas.
+                </li>
+                <li class="p-2 ">
+                    Comprobar el entendimiento del material escrito: es importante que el docente corrobore que el niño
+                    ha
+                    entendido
+                    el trabajo, sobre todo en cuanto a la actividad de descifrar.
+                </li>
+                <li class="p-2 ">
+                    Evaluación oral: el medio de evaluación más pertinente es a través del lenguaje oral, se recomienda
+                    evitar el
+                    uso masivo de evaluaciones escritas, solo hacerlo si es necesario y deben estar asociadas a
+                    actividades
+                    como
+                    respuestas de clasificar palabras, rellenar con verdadero o falso, completar frases, etc.
+                </li>
+                <li class="p-2 ">
+                    Informar al niño de cuándo leerá con voz alta: la frecuencia de lectura en clase debe ser menor en
+                    niños
+                    con
+                    dislexia. Sin embargo, es importante su participación en esta actividad, para ello, se debe indicar
+                    con
+                    anticipación qué día le tocará leer. Se sugiere que los textos a leer se caractericen por ser cortos
+                    y
+                    que en
+                    función a su velocidad pueda calcularse la extensión del párrafo que va a leer.
+                </li>
+                <li class="p-2 ">
+                    Demostrar nuestro interés: es importante que el niño perciba que sus maestros están muy atentos a
+                    sus
+                    progresos
+                    con el fin de ayudarlo a que continúe aprendiendo, se sugiere que se le pregunte si tiene alguna
+                    dificultad y
+                    felicitarlo por la actividad bien elaborada.
+                </li>
+                <li>
+                    Trabajos de grupo: mediante esta estrategia, el niño puede sentir mayor motivación para aprender.
+                </li>
+                <li class="p-2 ">
+                    No exigir ni la ortografía ni la puntuación: estas son tareas difíciles e imposibles, pues es propia
+                    de
+                    la
+                    dislexia el hecho de que el niño tenga dificultades en asumir estas reglas.
+                </li>
+                <li class="p-2 ">
+                    No dejar que corrija por sí solo un dictado: el maestro debe orientar al niño para que en la próxima
+                    actividad
+                    pueda mejorar lo escrito. Cuando las actividades de la clase han sido corregidas por el docente,
+                    este
+                    debe
+                    entregar los resultados personalmente con un lenguaje claro y cálido para que no se tome como una
+                    represalia o
+                    castigo.
+                </li>
+                <li class="p-2 ">
+                    Promover el uso de aparatos electrónicos y de más información: esto puede ser de gran ayuda para
+                    corregir la
+                    ortografía, además que es un elemento motivador. Su elección debe ser acorde a la edad. Repetir y
+                    explicar las
+                    veces que sea necesario: los niños con dislexia tienen una atención fluctuante, por lo que se
+                    recomienda
+                    ser
+                    reiterativos con lo que estamos enseñando y darnos cuenta si el niño presta atención, es importante
+                    el
+                    contacto
+                    visual.
+                </li>
+                <li class="p-2 ">
+                    Uso de esquemas y gráficos: el docente debe considerar este recurso para la explicación de su clase,
+                    pues los
+                    niños con dislexia comprenden mejor y le permite ubicar los detalles como las partes de lo que se
+                    intenta
+                    explicar.
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Fin Medidas psicopedagógicas  -->
+
+    <!-- Inicio Conclusion  -->
+    <div class="sticky-container titulo" id="conclusion">
+        <span class="sticky-content p-0">
+            <h3>Conclusión</h3>
+        </span>
+    </div>
+    <div class="container-fluid m-3">
+        <div class="container ">
+                Para concluir podemos decir que los problemas disléxicos son más frecuentes en los niños de lo que se
+                piensa,
+                pero que si no se trata a tiempo pueden llegar a la adolescencia y llegar a ser problemas incorregibles
+                y a
+                su
+                vez perjudicaran a estas personas. El principal aporte es que realmente no se debe determinar en este
+                punto
+                del
+                estudio si es un problema de dislexia o es una dificultad en su aprendizaje o desarrollo cognitivo; no
+                porque no
+                se pueda determinar sino que no es exacto debido a que los niños tratados en este estudio no superan los
+                14
+                años
+                de edad y a esa edad no hay un desarrollo total cognitivo. Pero sí es muy importante observar y seguir
+                cuidadosamente a cada uno de los estudiantes tratados en este anteproyecto investigativo sobre
+                dificultades
+                de
+                dislexia, para que se disipen estas dificultades en la dislexia.
+        </div>
+    </div>
+        <!-- Fin Conclusion  -->
+
+        <!-- Inicio boton  -->
+        <div class="container d-flex justify-content-center align-items-center vh-10 p-2">
+            <button type="button" onclick="volverAlInicio()" class="btn boton-volver">Volver al inicio</button>
+        </div>
+        <!-- fin boton  -->
+
+        <!-- Inicio Footer  -->
+        <footer class="mb-4 ">
+            <div class="text-center mb-4">
+                <div><img src="imagenes/copyright.svg" alt="copy" width="20">Todos los derechos reservados</div>
+                <div>copyright - José Manca 2023</div>
+                <div>mancajm@gmail.com</div>
+            </div>
+
+        </footer>
+        <!-- Fin Footer  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+
+        <script>
+            function volverAlInicio() {
+                // Puedes ajustar la posición de desplazamiento según tus necesidades
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+        </script>
+</body>
+
+</html>

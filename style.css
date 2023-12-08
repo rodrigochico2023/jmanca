@@ -6,11 +6,23 @@ footer {
     color: white; /* Cambia el color del texto según tus preferencias */
 }
 
+.fuente {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-custom {
+    background-color: #367caa;
+    color: white;
+}
+
+.nav-custom:hover {
+    color: white;
+}
+
 .titulos {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
 }
 
 .sticky-container {
@@ -27,13 +39,17 @@ footer {
     display: inline-block;
     border: none;
     background-color: #3498db; /* Cambia el color de fondo según tus preferencias */
-    padding: 10px 20px;
+    padding: 10px 20%;
     color: white; /* Cambia el color del texto según tus preferencias */
 }
 
 .boton-volver{
-    background-color: #3498db;
+    background-color: #0a466e;
     color: white;
+}
+
+.boton-volver:hover{
+    background-color: white;
 }
 
 
@@ -42,5 +58,12 @@ footer {
 }
 .navbar-custom {
     background: none; /* Fondo transparente para que la imagen de fondo sea visible */
-    border: none; /* Sin bordes */
+    border: none; /* Sin bordes*/ 
 }
+
+.link-descarga {
+    text-decoration: none;
+    color: #3498db ;
+}
+
+

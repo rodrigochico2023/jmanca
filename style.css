@@ -10,6 +10,14 @@ footer {
     font-family: 'Montserrat', sans-serif;
 }
 
+.drop-custom {
+    background-color: white;
+}
+.drop-custom:hover{
+    background-color: #367caa;
+    color: white;
+}
+
 .nav-custom {
     background-color: #367caa;
     color: white;

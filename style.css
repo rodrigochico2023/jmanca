@@ -43,6 +43,10 @@ footer {
     color: white; /* Cambia el color del texto según tus preferencias */
 }
 
+.next-custom {
+    background-color: #0a466e;
+}
+
 .boton-volver{
     background-color: #0a466e;
     color: white;

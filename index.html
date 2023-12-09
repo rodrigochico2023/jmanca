@@ -23,14 +23,20 @@
     <!-- Inicio Nav -->
     <nav class="navbar navbar-expand-lg p-2 nav-custom">
         <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
             <div class="collapse navbar-collapse" id="navbarNav">
+
                 <ul class="navbar-nav">
                     <li>
                         <a class="nav-link dropdown-toggle" href="#intro" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Marco Teórico
                         </a>
-                        <ul class="dropdown-menu mx-4 nav-custom">
+                        <ul class="dropdown-menu nav-custom">
                             <li><a class="dropdown-item" href="#planteamiento">Planteamiento del problema</a></li>
                             <li><a class="dropdown-item" href="#marco">Marco Teórico</a></li>
                             <li><a class="dropdown-item" href="#trastornos">Trastornos de la Dislexia</a></li>
@@ -43,7 +49,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a class="nav-link dropdown-toggle  mx-4 " href="#intro" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle" href="#intro" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Videos dislexia
                         </a>
@@ -60,10 +66,7 @@
                         </ul>
 
                     </li>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+
                     <li class="nav-item">
                         <a class="nav-link " href="actividades.html">Actividades</a>
                     </li>
@@ -80,7 +83,7 @@
     <!-- Fin Nav -->
 
     <!-- Inicio carrusel -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
@@ -93,30 +96,29 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="imagenes/IMG-20231207-WA0002.jpg" class="d-block w-100" alt="01">
+                <img src="imagenes/IMG-20231207-WA0002.jpg" class="d-block w-75 d-flex justify-content-center align-items-center mx-auto" alt="01">
             </div>
             <div class="carousel-item">
-                <img src="imagenes/IMG-20231207-WA0003.jpg" class="d-block w-100" alt="02">
+                <img src="imagenes/IMG-20231207-WA0003.jpg" class="d-block w-75 d-flex justify-content-center align-items-center mx-auto" alt="02">
             </div>
             <div class="carousel-item">
-                <img src="imagenes/IMG-20231207-WA0004.jpg" class="d-block w-100" alt="03">
+                <img src="imagenes/IMG-20231207-WA0004.jpg" class="d-block w-75 d-flex justify-content-center align-items-center mx-auto" alt="03">
             </div>
             <div class="carousel-item">
-                <img src="imagenes/IMG-20231207-WA0005.jpg" class="d-block w-100" alt="04">
+                <img src="imagenes/IMG-20231207-WA0005.jpg" class="d-block w-75 d-flex justify-content-center align-items-center mx-auto" alt="04">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
             data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="carousel-control-prev-icon next-custom" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
             data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="carousel-control-next-icon next-custom" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-
     <!-- Fin carrusel -->
 
     <!-- Inicio Introduccion -->
@@ -129,10 +131,10 @@
         </div>
     </div>
     <!-- Inicio boton  -->
-    
-        <div class="d-flex justify-content-end align-items-end my-1  sticky-top">
-            <button type="button" onclick="volverAlInicio()" class="btn boton-volver"> Volver a inicio</button>
-        </div>
+
+    <div class="fixed-bottom d-flex p-2">
+        <button type="button" onclick="volverAlInicio()" class="btn boton-volver">Volver a inicio</button>
+    </div>
     <!-- fin boton  -->
 
     <div class="container-fluid m-3">
